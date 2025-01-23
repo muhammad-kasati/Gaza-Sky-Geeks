@@ -1,0 +1,139 @@
+{
+  "books": [
+    {
+      "id": "9",
+      "title": "Travel Guide",
+      "author": "Chris Martin",
+      "genre": "Travel",
+      "description": "Explore the world with this guide.",
+      "image": "9.webp",
+      "price": "22",
+      "status": "unread"
+    },
+    {
+      "id": "11",
+      "title": "Fantasy World",
+      "author": "Robert Martinez",
+      "genre": "Fantasy",
+      "description": "A journey through a magical realm.",
+      "image": "6.webp",
+      "price": "20",
+      "status": "unread"
+    },
+    {
+      "id": "12",
+      "title": "Health and Wellness",
+      "author": "Jennifer Wilson",
+      "genre": "Health",
+      "description": "A guide to living well.",
+      "image": "7.jpg",
+      "price": "15",
+      "status": "unread"
+    },
+    {
+      "id": "13",
+      "title": "Children's Book",
+      "author": "Jessica Taylor",
+      "genre": "Children",
+      "description": "A delightful story for kids.",
+      "image": "8.jpg",
+      "price": "8",
+      "status": "unread"
+    },
+    {
+      "id": "14",
+      "title": "Thriller Novel",
+      "author": "William Anderson",
+      "genre": "Thriller",
+      "description": "An edge-of-your-seat thriller.",
+      "image": "14.jpg",
+      "price": "17",
+      "status": "unread"
+    },
+    {
+      "id": "15",
+      "title": "Poetry Collection",
+      "author": "Linda Thomas",
+      "genre": "Poetry",
+      "description": "A collection of beautiful poems.",
+      "image": "12.jpg",
+      "price": "12",
+      "status": "unread"
+    },
+    {
+      "id": "16",
+      "title": "Graphic Novel",
+      "author": "Charles Jackson",
+      "genre": "Graphic Novel",
+      "description": "A visually stunning graphic novel.",
+      "image": "17.jpg",
+      "price": "24"
+    },
+    {
+      "id": "17",
+      "title": "Dystopian Fiction",
+      "author": "Joseph White",
+      "genre": "Dystopian",
+      "description": "A look into a dystopian future.",
+      "image": "18.webp",
+      "price": "21"
+    },
+    {
+      "id": "18",
+      "title": "True Crime",
+      "author": "Karen Harris",
+      "genre": "True Crime",
+      "description": "Investigating real-life crimes.",
+      "image": "bookcover.webp",
+      "price": "18"
+    },
+    {
+      "id": "1049",
+      "title": "Another Book",
+      "author": "Jane Doe",
+      "genre": "Non-Fiction",
+      "description": "Another example description.",
+      "image": "2.webp",
+      "price": "17"
+    },
+    {
+      "id": "1050",
+      "title": "Mystery Novel",
+      "author": "John Smith",
+      "genre": "Mystery",
+      "description": "A thrilling mystery novel.",
+      "status": "unread",
+      "image": "3.webp",
+      "price": "13"
+    },
+    {
+      "id": "1051",
+      "title": "Science Fiction",
+      "author": "Mary Johnson",
+      "genre": "Science Fiction",
+      "description": "A futuristic science fiction story.",
+      "status": "unread",
+      "image": "4.jpg",
+      "price": "20"
+    },
+    {
+      "id": "1052",
+      "title": "Historical Fiction",
+      "author": "Michael Brown",
+      "genre": "Historical Fiction",
+      "description": "A captivating historical tale.",
+      "status": "unread",
+      "image": "5.webp",
+      "price": 8.99
+    },
+    {
+      "id": "10521",
+      "title": "داتا ستركشر",
+      "author": "يزيد",
+      "genre": "يءشي",
+      "description": "ءةنشةءن",
+      "image": "1.webp",
+      "price": "10"
+    }
+  ]
+}

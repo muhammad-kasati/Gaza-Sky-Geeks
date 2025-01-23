@@ -1,0 +1,119 @@
+@import "about.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins";
+}
+
+header {
+  width: auto;
+  height: auto;
+}
+
+#book-details {
+  background: #e7f0f3ac;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.book-content {
+  padding-left: 30px;
+  margin-bottom: 60px;
+}
+
+.book-content h2 {
+  font-size: 42px;
+  padding-bottom: 20px;
+}
+
+.book-content .description {
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+.book-content .price {
+  font-size: 22px;
+  color: #0b910b;
+  margin-bottom: 10px;
+}
+
+.book-content .current-price {
+  font-weight: bold;
+}
+
+.book-details {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.book-details li {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.book-content .address {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-toggle-btn {
+  background: #0b910b;
+  border: 1px solid #0b910b;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.list-toggle-btn:hover {
+  background: #ffffff;
+  color: #0b910b;
+}
+
+.card-footer .add-to-list-btn:hover {
+  background: #ffffff;
+  color: #0b910b;
+}
+
+.actions {
+  gap: 15px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.update-icon,
+.delete-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: #001f87;
+  transition: color transform 0.3s;
+}
+
+.delete-icon {
+  color: #8b0000;
+}
+
+.update-icon:hover {
+  color: #0026a0;
+  transform: scale(1.09);
+}
+
+.delete-icon:hover {
+  color: #a10000;
+  transform: scale(1.09);
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Books Form</title>
+    <link rel="stylesheet" href="../css/updateBooks.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="../index.html" class="brand">
+            <span>Book's</span> Library
+          </a>
+        </div>
+
+        <div class="navmenu">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="AllBooks.html">All Books</a></li>
+            <li><a href="AddBooks.html">Add Books</a></li>
+            <li><a href="MyList.html">My List</a></li>
+          </ul>
+
+          <div class="search-box">
+            <input type="search" class="search" placeholder="Search here..." />
+            <i class="bx bx-search"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="menubar">
+        <i class="bx bx-menu" id="menu-icon"></i>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2>Update Books From Here</h2>
+      <form
+        class="update-book-form"
+        id="update-book-form"
+        onsubmit="UpdateSubmit(event)"
+      >
+        <div class="form-row">
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" id="title" placeholder="Enter book name" />
+          </div>
+          <div class="form-group">
+            <label for="author">Author</label>
+            <input type="text" id="author" placeholder="Enter author name" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="description">Description</label>
+            <input
+              type="text"
+              id="description"
+              placeholder="Enter book description"
+            />
+          </div>
+          <div class="form-group">
+            <label for="price">Price</label>
+            <input type="number" id="price" placeholder="Enter price" />
+          </div>
+          <div class="form-group">
+            <label for="image">Image</label>
+            <span id="currentImageName"></span><br />
+            <input type="file" id="image" placeholder="Enter image URL" />
+          </div>
+          <div class="form-group">
+            <label for="genre">Genre</label>
+            <input
+              type="text"
+              id="genre"
+              placeholder="Enter book genre"
+              required
+            />
+          </div>
+        </div>
+        <button type="submit" onclick="FormSubmit()">Update Book</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>©2024 All rights reserved to Binary Builders Team</p>
+    </footer>
+
+    <div class="scroll-to-top">
+      <a href="#top">↑</a>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+  <script type="module" src="../js/updateBook.js"></script>
+</html>

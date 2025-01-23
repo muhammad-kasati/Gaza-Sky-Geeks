@@ -1,0 +1,17 @@
+footer {
+  background-color: rgb(31, 41, 55);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  padding: 15px;
+  margin: 20px auto;
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}

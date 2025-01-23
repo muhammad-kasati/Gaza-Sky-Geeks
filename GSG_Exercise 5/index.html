@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Book Haven</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html" class="brand"> <span>Book's</span> Library </a>
+        </div>
+
+        <div class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/About.html">About</a></li>
+            <li><a href="pages/AllBooks.html">All Books</a></li>
+            <li><a href="pages/AddBooks.html">Add Books</a></li>
+            <li><a href="pages/MyList.html">My List</a></li>
+          </ul>
+
+          <div class="search-box">
+            <input type="search" class="search" placeholder="Search here..." />
+            <i class="bx bx-search"></i>
+          </div>
+        </div>
+      </nav>
+
+      <div class="menubar">
+        <i class="bx bx-menu" id="menu-icon"></i>
+      </div>
+
+      <div class="main-header">
+        <div class="header">
+          <h5>Book Library</h5>
+          <h2>For All Your Reading Needs</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero,
+            illum nostrum alias praesentium.
+          </p>
+          <a href="pages/AllBooks.html" class="btn">View Books</a>
+        </div>
+
+        <img src="imgs/5.webp" alt="" />
+      </div>
+    </header>
+
+    <section class="cards">
+      <div class="product-container" id="book-list">
+        <!-- Product cards will be inserted here by JavaScript -->
+      </div>
+
+      <!-- Show More Button as a Link -->
+      <div class="show-more-container">
+        <a href="pages/AllBooks.html" class="show-more-btn">Show More</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>✉️Contact Us</h2>
+      <p>If you'd like to get in touch, please fill out the form below:</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>©2024 All rights reserved to Binary Builders Team</p>
+    </footer>
+
+    <div class="scroll-to-top">
+      <a href="#top">↑</a>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/deleteBook.js"></script>
+    <script src="js/readStatus.js"></script>
+  </body>
+</html>

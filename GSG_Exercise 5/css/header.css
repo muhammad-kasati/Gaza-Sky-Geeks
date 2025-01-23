@@ -1,0 +1,146 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(31, 41, 55);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 20px;
+}
+
+.brand span {
+  background: linear-gradient(to right, #6366f1, #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.navmenu li {
+  display: inline-block;
+}
+
+.navmenu li a {
+  color: #ffffff;
+  margin-right: 20px;
+  padding: 0px 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.search-box .search {
+  padding: 12px 10px;
+  border-radius: 30px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #3a3b3c;
+  color: white;
+}
+
+.navmenu .search-box i {
+  color: #ffffff;
+  position: relative;
+  right: 50px;
+  top: 2px;
+  background: linear-gradient(to right, #6366f1, #a855f7, #ec4899);
+  padding: 12px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.menubar i {
+  color: #ffffff;
+  font-size: 30px;
+  padding-right: 20px;
+  position: absolute;
+  top: 22px;
+  right: 40px;
+  cursor: pointer;
+}
+
+.navmenu li a:hover {
+  color: #aaa;
+}
+
+header {
+  background: #e7f0f3ac;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-header {
+  width: 75%;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-header h5 {
+  font-size: 22px;
+  color: #0b910b;
+  font-weight: 550;
+}
+
+.main-header h2 {
+  font-size: 48px;
+  width: 340px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.main-header p {
+  margin-bottom: 60px;
+}
+
+.main-header .btn {
+  background: #0b910b;
+  border: 1px solid #0b910b;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: all 0.5s;
+}
+
+.main-header .btn:hover {
+  color: #0b910b;
+  background: #ffffff;
+}
+
+.main-header img {
+  width: 560px;
+  height: 90%;
+  border-radius: 10px;
+}
+
+.sub-title {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.sub-title span {
+  display: inline-block;
+  padding: 2px 4px;
+  background: linear-gradient(to right, #6366f1, #8b5cf6, #ec4899);
+  border-radius: 8px;
+}
